@@ -12,7 +12,7 @@
 
 <body>
     <header class="navbar">
-        <div class="logo">Shree Shyam Enterprises</div>
+        <div class="logo">Shree Shyam <span>Enterprises</span></div>
         <nav class="nav-links" id="navLinks">
             <a href="#home">Home</a>
             <a href="#Products">Products</a>
@@ -299,39 +299,8 @@
     <section class="gallery-section" id="gallery">
         <h2 class="section-title">Our Gallery</h2>
 
-        <div class="gallery-grid">
-
-            <div class="gallery-item">
-                <img src="./image/Flycon T3.png" alt="Flycon T3">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/Flycon Grove.png" alt="Flycon Grove">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/Grove Lite.png" alt="Grove Lite">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/Sway.png" alt="Sway">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/TV.png" alt="TV">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/Air Conditioner.png" alt="Air Conditioner">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/Mixer.png" alt="Mixer">
-            </div>
-
-            <div class="gallery-item">
-                <img src="./image/Ceiling Fan.png" alt="Ceiling Fan">
-            </div>
+        <div class="gallery-grid" id="dynamic-gallery">
+            <!-- Gallery items are dynamically inserted via script.js -->
         </div>
     </section>
 
@@ -457,10 +426,12 @@
 
         <div class="footer-bottom">
             <p>&copy;2025 <strong>Shree Shyam Enterprises </strong>. All right reserved. | Accepts:</p>
-            <i class="fa-brands fa-paypal"></i>
-            <i class="fa-brands fa-cc-visa"></i>
-            <i class="fa-brands fa-cc-mastercard"></i>
-            <i class="fa-brands fa-cc-amex"></i>
+            <div class="payment-icons">
+                <i class="fa-brands fa-paypal"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+            </div>
         </div>
     </footer>
 
